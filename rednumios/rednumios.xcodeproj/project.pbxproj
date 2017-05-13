@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5440D7A8C14B59CCA9B6C370 /* libPods-rednumios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B6374C1B1F42FEA9F5DCFC /* libPods-rednumios.a */; };
+		700246231EC6A59200D49B1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246221EC6A59200D49B1E /* main.m */; };
+		700246261EC6A59200D49B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246251EC6A59200D49B1E /* AppDelegate.m */; };
+		700246291EC6A59200D49B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246281EC6A59200D49B1E /* ViewController.m */; };
+		7002462C1EC6A59200D49B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7002462A1EC6A59200D49B1E /* Main.storyboard */; };
+		7002462E1EC6A59200D49B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7002462D1EC6A59200D49B1E /* Assets.xcassets */; };
+		700246311EC6A59200D49B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7002461E1EC6A59200D49B1E /* rednumios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rednumios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		700246221EC6A59200D49B1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		700246241EC6A59200D49B1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		700246251EC6A59200D49B1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		700246271EC6A59200D49B1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		700246281EC6A59200D49B1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7002462B1EC6A59200D49B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7002462D1EC6A59200D49B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700246301EC6A59200D49B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700246321EC6A59200D49B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E0C6B3099464449BEE18A6 /* Pods-rednumios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rednumios.release.xcconfig"; path = "Pods/Target Support Files/Pods-rednumios/Pods-rednumios.release.xcconfig"; sourceTree = "<group>"; };
+		C553FC8FD17F048AC09B3DFD /* Pods-rednumios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rednumios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rednumios/Pods-rednumios.debug.xcconfig"; sourceTree = "<group>"; };
+		E6B6374C1B1F42FEA9F5DCFC /* libPods-rednumios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rednumios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7002461B1EC6A59200D49B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5440D7A8C14B59CCA9B6C370 /* libPods-rednumios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700246151EC6A59200D49B1E = {
+			isa = PBXGroup;
+			children = (
+				700246201EC6A59200D49B1E /* rednumios */,
+				7002461F1EC6A59200D49B1E /* Products */,
+				E1FD51B001749B35BB2CED28 /* Pods */,
+				9573F66EC18F3FD9FBB511D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7002461F1EC6A59200D49B1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7002461E1EC6A59200D49B1E /* rednumios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700246201EC6A59200D49B1E /* rednumios */ = {
+			isa = PBXGroup;
+			children = (
+				700246241EC6A59200D49B1E /* AppDelegate.h */,
+				700246251EC6A59200D49B1E /* AppDelegate.m */,
+				700246271EC6A59200D49B1E /* ViewController.h */,
+				700246281EC6A59200D49B1E /* ViewController.m */,
+				7002462A1EC6A59200D49B1E /* Main.storyboard */,
+				7002462D1EC6A59200D49B1E /* Assets.xcassets */,
+				7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */,
+				700246321EC6A59200D49B1E /* Info.plist */,
+				700246211EC6A59200D49B1E /* Supporting Files */,
+			);
+			path = rednumios;
+			sourceTree = "<group>";
+		};
+		700246211EC6A59200D49B1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				700246221EC6A59200D49B1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9573F66EC18F3FD9FBB511D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6374C1B1F42FEA9F5DCFC /* libPods-rednumios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FD51B001749B35BB2CED28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C553FC8FD17F048AC09B3DFD /* Pods-rednumios.debug.xcconfig */,
+				98E0C6B3099464449BEE18A6 /* Pods-rednumios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7002461D1EC6A59200D49B1E /* rednumios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700246351EC6A59200D49B1E /* Build configuration list for PBXNativeTarget "rednumios" */;
+			buildPhases = (
+				459E889EDC9A1EF58B4C0915 /* [CP] Check Pods Manifest.lock */,
+				7002461A1EC6A59200D49B1E /* Sources */,
+				7002461B1EC6A59200D49B1E /* Frameworks */,
+				7002461C1EC6A59200D49B1E /* Resources */,
+				0446429010DEB680C0D54CB5 /* [CP] Embed Pods Frameworks */,
+				5DE38C801AB8215ECBBF5CEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rednumios;
+			productName = rednumios;
+			productReference = 7002461E1EC6A59200D49B1E /* rednumios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700246161EC6A59200D49B1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "谭卓";
+				TargetAttributes = {
+					7002461D1EC6A59200D49B1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6FAFN86H6P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 700246191EC6A59200D49B1E /* Build configuration list for PBXProject "rednumios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700246151EC6A59200D49B1E;
+			productRefGroup = 7002461F1EC6A59200D49B1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7002461D1EC6A59200D49B1E /* rednumios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7002461C1EC6A59200D49B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700246311EC6A59200D49B1E /* LaunchScreen.storyboard in Resources */,
+				7002462E1EC6A59200D49B1E /* Assets.xcassets in Resources */,
+				7002462C1EC6A59200D49B1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0446429010DEB680C0D54CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rednumios/Pods-rednumios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		459E889EDC9A1EF58B4C0915 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE38C801AB8215ECBBF5CEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rednumios/Pods-rednumios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7002461A1EC6A59200D49B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700246291EC6A59200D49B1E /* ViewController.m in Sources */,
+				700246261EC6A59200D49B1E /* AppDelegate.m in Sources */,
+				700246231EC6A59200D49B1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7002462A1EC6A59200D49B1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7002462B1EC6A59200D49B1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700246301EC6A59200D49B1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700246331EC6A59200D49B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		700246341EC6A59200D49B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700246361EC6A59200D49B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C553FC8FD17F048AC09B3DFD /* Pods-rednumios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FAFN86H6P;
+				INFOPLIST_FILE = rednumios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednum.icelight.rednumios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		700246371EC6A59200D49B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E0C6B3099464449BEE18A6 /* Pods-rednumios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FAFN86H6P;
+				INFOPLIST_FILE = rednumios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednum.icelight.rednumios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700246191EC6A59200D49B1E /* Build configuration list for PBXProject "rednumios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700246331EC6A59200D49B1E /* Debug */,
+				700246341EC6A59200D49B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700246351EC6A59200D49B1E /* Build configuration list for PBXNativeTarget "rednumios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700246361EC6A59200D49B1E /* Debug */,
+				700246371EC6A59200D49B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700246161EC6A59200D49B1E /* Project object */;
+}
