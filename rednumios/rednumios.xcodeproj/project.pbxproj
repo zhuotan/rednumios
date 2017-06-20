@@ -11,9 +11,15 @@
 		700246231EC6A59200D49B1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246221EC6A59200D49B1E /* main.m */; };
 		700246261EC6A59200D49B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246251EC6A59200D49B1E /* AppDelegate.m */; };
 		700246291EC6A59200D49B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700246281EC6A59200D49B1E /* ViewController.m */; };
-		7002462C1EC6A59200D49B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7002462A1EC6A59200D49B1E /* Main.storyboard */; };
 		7002462E1EC6A59200D49B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7002462D1EC6A59200D49B1E /* Assets.xcassets */; };
 		700246311EC6A59200D49B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */; };
+		7002463B1EC6EA5F00D49B1E /* LCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7002463A1EC6EA5F00D49B1E /* LCBannerView.m */; };
+		706A465E1ED02DAC00A39AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706A465C1ED02DAC00A39AA8 /* Main.storyboard */; };
+		706A46611ED420F500A39AA8 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A46601ED420F500A39AA8 /* SearchViewController.m */; };
+		70B0A6031ECAB678001E6868 /* ArticalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B0A6021ECAB678001E6868 /* ArticalViewCell.m */; };
+		70B0A6091ECC79CD001E6868 /* object.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B0A6061ECC79CD001E6868 /* object.m */; };
+		70B0A60A1ECC79CD001E6868 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B0A6081ECC79CD001E6868 /* Jastor.m */; };
+		70B0A60D1ECFDBAB001E6868 /* ArticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B0A60C1ECFDBAB001E6868 /* ArticalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +29,22 @@
 		700246251EC6A59200D49B1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		700246271EC6A59200D49B1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		700246281EC6A59200D49B1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7002462B1EC6A59200D49B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7002462D1EC6A59200D49B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700246301EC6A59200D49B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700246321EC6A59200D49B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700246391EC6EA5F00D49B1E /* LCBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBannerView.h; sourceTree = "<group>"; };
+		7002463A1EC6EA5F00D49B1E /* LCBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBannerView.m; sourceTree = "<group>"; };
+		706A465D1ED02DAC00A39AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = rednumios/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706A465F1ED420F500A39AA8 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		706A46601ED420F500A39AA8 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
+		70B0A6011ECAB678001E6868 /* ArticalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticalViewCell.h; sourceTree = "<group>"; };
+		70B0A6021ECAB678001E6868 /* ArticalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticalViewCell.m; sourceTree = "<group>"; };
+		70B0A6051ECC79CD001E6868 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		70B0A6061ECC79CD001E6868 /* object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = object.m; sourceTree = "<group>"; };
+		70B0A6071ECC79CD001E6868 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		70B0A6081ECC79CD001E6868 /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		70B0A60B1ECFDBAB001E6868 /* ArticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticalViewController.h; sourceTree = "<group>"; };
+		70B0A60C1ECFDBAB001E6868 /* ArticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticalViewController.m; sourceTree = "<group>"; };
 		98E0C6B3099464449BEE18A6 /* Pods-rednumios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rednumios.release.xcconfig"; path = "Pods/Target Support Files/Pods-rednumios/Pods-rednumios.release.xcconfig"; sourceTree = "<group>"; };
 		C553FC8FD17F048AC09B3DFD /* Pods-rednumios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rednumios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rednumios/Pods-rednumios.debug.xcconfig"; sourceTree = "<group>"; };
 		E6B6374C1B1F42FEA9F5DCFC /* libPods-rednumios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rednumios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,15 +83,23 @@
 		700246201EC6A59200D49B1E /* rednumios */ = {
 			isa = PBXGroup;
 			children = (
+				70B0A6041ECC7922001E6868 /* Jsonobj */,
+				700246381EC6E9F800D49B1E /* LCBannerView */,
 				700246241EC6A59200D49B1E /* AppDelegate.h */,
 				700246251EC6A59200D49B1E /* AppDelegate.m */,
 				700246271EC6A59200D49B1E /* ViewController.h */,
 				700246281EC6A59200D49B1E /* ViewController.m */,
-				7002462A1EC6A59200D49B1E /* Main.storyboard */,
 				7002462D1EC6A59200D49B1E /* Assets.xcassets */,
+				706A465C1ED02DAC00A39AA8 /* Main.storyboard */,
 				7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */,
 				700246321EC6A59200D49B1E /* Info.plist */,
 				700246211EC6A59200D49B1E /* Supporting Files */,
+				70B0A6011ECAB678001E6868 /* ArticalViewCell.h */,
+				70B0A6021ECAB678001E6868 /* ArticalViewCell.m */,
+				70B0A60B1ECFDBAB001E6868 /* ArticalViewController.h */,
+				70B0A60C1ECFDBAB001E6868 /* ArticalViewController.m */,
+				706A465F1ED420F500A39AA8 /* SearchViewController.h */,
+				706A46601ED420F500A39AA8 /* SearchViewController.m */,
 			);
 			path = rednumios;
 			sourceTree = "<group>";
@@ -84,6 +110,26 @@
 				700246221EC6A59200D49B1E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		700246381EC6E9F800D49B1E /* LCBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				700246391EC6EA5F00D49B1E /* LCBannerView.h */,
+				7002463A1EC6EA5F00D49B1E /* LCBannerView.m */,
+			);
+			name = LCBannerView;
+			sourceTree = "<group>";
+		};
+		70B0A6041ECC7922001E6868 /* Jsonobj */ = {
+			isa = PBXGroup;
+			children = (
+				70B0A6051ECC79CD001E6868 /* object.h */,
+				70B0A6061ECC79CD001E6868 /* object.m */,
+				70B0A6071ECC79CD001E6868 /* Jastor.h */,
+				70B0A6081ECC79CD001E6868 /* Jastor.m */,
+			);
+			name = Jsonobj;
 			sourceTree = "<group>";
 		};
 		9573F66EC18F3FD9FBB511D5 /* Frameworks */ = {
@@ -165,9 +211,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706A465E1ED02DAC00A39AA8 /* Main.storyboard in Resources */,
 				700246311EC6A59200D49B1E /* LaunchScreen.storyboard in Resources */,
 				7002462E1EC6A59200D49B1E /* Assets.xcassets in Resources */,
-				7002462C1EC6A59200D49B1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,28 +273,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				700246291EC6A59200D49B1E /* ViewController.m in Sources */,
+				70B0A60D1ECFDBAB001E6868 /* ArticalViewController.m in Sources */,
+				7002463B1EC6EA5F00D49B1E /* LCBannerView.m in Sources */,
+				70B0A6091ECC79CD001E6868 /* object.m in Sources */,
+				706A46611ED420F500A39AA8 /* SearchViewController.m in Sources */,
+				70B0A60A1ECC79CD001E6868 /* Jastor.m in Sources */,
 				700246261EC6A59200D49B1E /* AppDelegate.m in Sources */,
 				700246231EC6A59200D49B1E /* main.m in Sources */,
+				70B0A6031ECAB678001E6868 /* ArticalViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7002462A1EC6A59200D49B1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7002462B1EC6A59200D49B1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7002462F1EC6A59200D49B1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				700246301EC6A59200D49B1E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		706A465C1ED02DAC00A39AA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706A465D1ED02DAC00A39AA8 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -389,6 +442,7 @@
 				700246371EC6A59200D49B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
