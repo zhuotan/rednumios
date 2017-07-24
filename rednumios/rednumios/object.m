@@ -39,18 +39,18 @@ NSDate *date;
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     self.pubtime = [dateFormatter stringFromDate:[NSDate date]];
     
-    self.content = [self.content substringWithRange:NSMakeRange(0,15)];
+    self.content = [self.content substringWithRange:NSMakeRange(0,20)];
     
     int li = [ln intValue];
     
     switch (li) {
-        case 0:
+        case 1:
             self.level = @"初级";
             break;
-        case 1:
+        case 2:
             self.level = @"进阶";
             break;
-        case 2:
+        case 3:
             self.level = @"职业";
             break;
         case 4:

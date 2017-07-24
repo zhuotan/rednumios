@@ -13,8 +13,10 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-}
-
+    [self.logoimg.layer setCornerRadius:5];
+    [self.logoimg.layer setMasksToBounds:YES];
+    
+  }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

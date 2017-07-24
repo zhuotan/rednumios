@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     CGRect rect = [[UIScreen mainScreen] bounds];
     CGSize size = rect.size;
-    CGRect rectNav = self.navigationController.navigationBar.frame;
+    //CGRect rectNav = self.navigationController.navigationBar.frame;
     self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.hrefurl]];
     [self.view addSubview: self.webView];

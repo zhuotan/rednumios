@@ -116,17 +116,32 @@ AFHTTPSessionManager *manager;
 -(void)textFieldDidBeginEditing:(UITextField*)textField
 
 {
-    //SearchViewController *search=[[SearchViewController alloc]init];
-    //[self.navigationController pushViewController:search animated:YES];
-    SearchViewController *view = [self.storyboard instantiateViewControllerWithIdentifier:@"SearchView"];
-    [self.navigationController pushViewController:view animated:YES];
+
     
+//    [self.navigationController pushViewController:view animated:YES];
+    
+  NSArray *hotSearches = @[@"Java", @"Python", @"Objective-C", @"Swift", @"C", @"C++", @"PHP", @"C#", @"Perl", @"Go", @"JavaScript", @"R", @"Ruby", @"MATLAB"];
+    PYSearchViewController *searchViewController = [PYSearchViewController searchViewControllerWithHotSearches:hotSearches searchBarPlaceholder:NSLocalizedString(@"搜索 标题|内容|作者", @"搜索编程语言") didSearchBlock:^(PYSearchViewController *searchViewController, UISearchBar *searchBar, NSString *searchText) {
+        // Called when search begain.
+        // eg：Push to a temp view controller
+        SearchViewController *sview = [self.storyboard instantiateViewControllerWithIdentifier:@"SearchView"];
+        sview.find = searchText;
+        [searchViewController.navigationController pushViewController:sview animated:YES];
+    }];
+    searchViewController.hotSearchStyle = 1;
+    searchViewController.searchHistoryStyle = PYHotSearchStyleDefault;
+    
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:searchViewController];
+    [self presentViewController:nav animated:YES completion:nil];
+    
+   
 }
 
 - (void)loadNewData{
     // 获取数据
     NSString  *PageString = [URLString stringByAppendingString:@"&page="];
-    NSString *stringInt = [NSString stringWithFormat:@"%d",page];
+    NSString *stringInt = [NSString stringWithFormat:@"%d",1];
     PageString =[PageString stringByAppendingString:stringInt];
     URL = [NSURL URLWithString:PageString];
     

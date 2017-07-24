@@ -14,6 +14,7 @@
 #import "LCBannerView.h"
 #import "object.h"
 #import "ArticalViewCell.h"
+#import "PYSearch.h"
 
 @interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate>
 
